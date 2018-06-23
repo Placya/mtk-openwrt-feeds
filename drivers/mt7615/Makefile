@@ -8,8 +8,7 @@ PKG_FILE_DEPENDS:=
 PKG_LICENSE:=GPL-2.0
 
 PKG_MAINTAINER:=Hua Shao <nossiac@163.com>
-PKG_URLS:=http://nossiac.com/download/mtk-wifi-ko \
-	http://119.23.148.191:8888/mtk-wifi-ko
+PKG_URLS:=http://119.23.148.191:8888/mtk-wifi-ko
 
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/kernel.mk
