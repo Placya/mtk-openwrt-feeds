@@ -13,7 +13,8 @@ PKG_URLS:=http://119.23.148.191:8888/mtk-wifi-ko
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/kernel.mk
 
-PKG_KO:=$(PKG_NAME)-for-$(CONFIG_TARGET_SUBTARGET)-linux-$(LINUX_VERSION).ko
+#PKG_KO:=$(PKG_NAME)-for-$(CONFIG_TARGET_SUBTARGET)-linux-$(LINUX_VERSION).ko
+PKG_KO:=$(PKG_NAME)-for-mt7621-linux-4.14.23.ko
 
 define Package/mt7615
   CATEGORY:=MTK Properties
